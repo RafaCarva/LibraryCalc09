@@ -35,6 +35,15 @@ namespace LibraryCalc09.Entities
         double OperationSubtract(double x, double y);
 
         /// <summary>
+        /// Subtração de 3 valores
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="z"></param>
+        /// <returns></returns>
+        double OperationSubtract(double x, double y, double z);
+        
+        /// <summary>
         /// Divisão de valores
         /// </summary>
         /// <param name="x"></param>

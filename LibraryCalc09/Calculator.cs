@@ -31,5 +31,10 @@ namespace LibraryCalc09
         {
             return x - y;
         }
+
+        public double OperationSubtract(double x, double y, double z)
+        {
+            return x - y - z;
+        }
     }
 }
