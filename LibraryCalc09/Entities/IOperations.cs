@@ -58,5 +58,14 @@ namespace LibraryCalc09.Entities
         /// <param name="y"></param>
         /// <returns>Resultado da multiplicação</returns>
         double OperationMultiply(double x, double y);
+
+        /// <summary>
+        ///Multiplicação de 3 valores
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="z"></param>
+        /// <returns></returns>
+        double OperationMultiply(double x, double y, double z);
     }
 }

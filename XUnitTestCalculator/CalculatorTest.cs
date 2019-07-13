@@ -79,6 +79,18 @@ namespace XUnitTestLibCalc19Tests
 
             Assert.True((x * y) == result);
         }
+        [Fact]
+        public void MultiplicacaoTresParametrosSucesso()
+        {
+            var calculator = new Calculator();
+            var x = 5;
+            var y = 4;
+            var z = 2;
+
+            var result = calculator.OperationMultiply(x, y, z);
+
+            Assert.True((x * y * z) == result);
+        }
 
         [Fact]
         public void DivisaoSucesso()
